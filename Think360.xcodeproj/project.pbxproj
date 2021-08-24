@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942D6BF926D4AFE500469B1F /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942D6BF826D4AFE500469B1F /* ImageCollectionViewCell.swift */; };
+		942D6BFB26D4B2BC00469B1F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942D6BFA26D4B2BC00469B1F /* Image.swift */; };
+		942D6C0726D4BF0E00469B1F /* com.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 942D6BFE26D4BF0D00469B1F /* com.JPG */; };
+		942D6C0826D4BF0E00469B1F /* med 5.47.11 PM.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 942D6BFF26D4BF0D00469B1F /* med 5.47.11 PM.JPG */; };
+		942D6C0926D4BF0E00469B1F /* groc 5.47.11 PM.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 942D6C0026D4BF0D00469B1F /* groc 5.47.11 PM.PNG */; };
+		942D6C0A26D4BF0E00469B1F /* ga 5.47.11 PM.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 942D6C0126D4BF0D00469B1F /* ga 5.47.11 PM.JPG */; };
+		942D6C0B26D4BF0E00469B1F /* Veg 5.47.11 PM.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 942D6C0226D4BF0D00469B1F /* Veg 5.47.11 PM.JPG */; };
+		942D6C0C26D4BF0E00469B1F /* sea 5.47.11 PM.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 942D6C0326D4BF0D00469B1F /* sea 5.47.11 PM.JPG */; };
+		942D6C0D26D4BF0E00469B1F /* super.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 942D6C0426D4BF0D00469B1F /* super.JPG */; };
+		942D6C0E26D4BF0E00469B1F /* baby.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 942D6C0526D4BF0E00469B1F /* baby.JPG */; };
+		942D6C0F26D4BF0E00469B1F /* toys.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 942D6C0626D4BF0E00469B1F /* toys.JPG */; };
+		944FC1C826D3961C0048CDDB /* icons8-food_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 944FC1C726D3961C0048CDDB /* icons8-food_cart.png */; };
+		944FC1CA26D39C270048CDDB /* icons8-google_maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 944FC1C926D39C260048CDDB /* icons8-google_maps.png */; };
+		944FC1CC26D39E290048CDDB /* icons8-coin_wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 944FC1CB26D39E280048CDDB /* icons8-coin_wallet.png */; };
 		94DED3CA26D35FC30095DDCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED3C926D35FC30095DDCC /* AppDelegate.swift */; };
 		94DED3CC26D35FC30095DDCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED3CB26D35FC30095DDCC /* SceneDelegate.swift */; };
-		94DED3CE26D35FC30095DDCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED3CD26D35FC30095DDCC /* ViewController.swift */; };
 		94DED3D126D35FC30095DDCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DED3CF26D35FC30095DDCC /* Main.storyboard */; };
 		94DED3D326D35FC80095DDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DED3D226D35FC80095DDCC /* Assets.xcassets */; };
 		94DED3D626D35FC80095DDCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DED3D426D35FC80095DDCC /* LaunchScreen.storyboard */; };
+		94DED3DE26D363500095DDCC /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED3DD26D363500095DDCC /* CartViewController.swift */; };
+		94DED3E026D3636E0095DDCC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED3DF26D3636E0095DDCC /* SearchViewController.swift */; };
+		94DED3E226D363830095DDCC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED3E126D363830095DDCC /* HomeViewController.swift */; };
+		94DED3E426D363A10095DDCC /* TransitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED3E326D363A10095DDCC /* TransitViewController.swift */; };
+		94DED3E626D363AF0095DDCC /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DED3E526D363AF0095DDCC /* WalletViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		942D6BF826D4AFE500469B1F /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		942D6BFA26D4B2BC00469B1F /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		942D6BFE26D4BF0D00469B1F /* com.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = com.JPG; sourceTree = "<group>"; };
+		942D6BFF26D4BF0D00469B1F /* med 5.47.11 PM.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "med 5.47.11 PM.JPG"; sourceTree = "<group>"; };
+		942D6C0026D4BF0D00469B1F /* groc 5.47.11 PM.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groc 5.47.11 PM.PNG"; sourceTree = "<group>"; };
+		942D6C0126D4BF0D00469B1F /* ga 5.47.11 PM.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ga 5.47.11 PM.JPG"; sourceTree = "<group>"; };
+		942D6C0226D4BF0D00469B1F /* Veg 5.47.11 PM.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Veg 5.47.11 PM.JPG"; sourceTree = "<group>"; };
+		942D6C0326D4BF0D00469B1F /* sea 5.47.11 PM.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sea 5.47.11 PM.JPG"; sourceTree = "<group>"; };
+		942D6C0426D4BF0D00469B1F /* super.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = super.JPG; sourceTree = "<group>"; };
+		942D6C0526D4BF0E00469B1F /* baby.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baby.JPG; sourceTree = "<group>"; };
+		942D6C0626D4BF0E00469B1F /* toys.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toys.JPG; sourceTree = "<group>"; };
+		944FC1C726D3961C0048CDDB /* icons8-food_cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-food_cart.png"; sourceTree = "<group>"; };
+		944FC1C926D39C260048CDDB /* icons8-google_maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-google_maps.png"; sourceTree = "<group>"; };
+		944FC1CB26D39E280048CDDB /* icons8-coin_wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-coin_wallet.png"; sourceTree = "<group>"; };
 		94DED3C626D35FC30095DDCC /* Think360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Think360.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DED3C926D35FC30095DDCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94DED3CB26D35FC30095DDCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		94DED3CD26D35FC30095DDCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94DED3D026D35FC30095DDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94DED3D226D35FC80095DDCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94DED3D526D35FC80095DDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94DED3D726D35FC80095DDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DED3DD26D363500095DDCC /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		94DED3DF26D3636E0095DDCC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		94DED3E126D363830095DDCC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		94DED3E326D363A10095DDCC /* TransitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitViewController.swift; sourceTree = "<group>"; };
+		94DED3E526D363AF0095DDCC /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +73,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		944FC1FB26D3BCB40048CDDB /* media */ = {
+			isa = PBXGroup;
+			children = (
+				942D6C0526D4BF0E00469B1F /* baby.JPG */,
+				942D6BFE26D4BF0D00469B1F /* com.JPG */,
+				942D6C0126D4BF0D00469B1F /* ga 5.47.11 PM.JPG */,
+				942D6C0026D4BF0D00469B1F /* groc 5.47.11 PM.PNG */,
+				942D6BFF26D4BF0D00469B1F /* med 5.47.11 PM.JPG */,
+				942D6C0326D4BF0D00469B1F /* sea 5.47.11 PM.JPG */,
+				942D6C0426D4BF0D00469B1F /* super.JPG */,
+				942D6C0626D4BF0E00469B1F /* toys.JPG */,
+				942D6C0226D4BF0D00469B1F /* Veg 5.47.11 PM.JPG */,
+				944FC1CB26D39E280048CDDB /* icons8-coin_wallet.png */,
+				944FC1C926D39C260048CDDB /* icons8-google_maps.png */,
+				944FC1C726D3961C0048CDDB /* icons8-food_cart.png */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
 		94DED3BD26D35FC30095DDCC = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +113,28 @@
 			children = (
 				94DED3C926D35FC30095DDCC /* AppDelegate.swift */,
 				94DED3CB26D35FC30095DDCC /* SceneDelegate.swift */,
-				94DED3CD26D35FC30095DDCC /* ViewController.swift */,
 				94DED3CF26D35FC30095DDCC /* Main.storyboard */,
+				94DED3E826D363D00095DDCC /* View Controllers */,
 				94DED3D226D35FC80095DDCC /* Assets.xcassets */,
+				944FC1FB26D3BCB40048CDDB /* media */,
 				94DED3D426D35FC80095DDCC /* LaunchScreen.storyboard */,
 				94DED3D726D35FC80095DDCC /* Info.plist */,
+				942D6BF826D4AFE500469B1F /* ImageCollectionViewCell.swift */,
+				942D6BFA26D4B2BC00469B1F /* Image.swift */,
 			);
 			path = Think360;
+			sourceTree = "<group>";
+		};
+		94DED3E826D363D00095DDCC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				94DED3DD26D363500095DDCC /* CartViewController.swift */,
+				94DED3DF26D3636E0095DDCC /* SearchViewController.swift */,
+				94DED3E126D363830095DDCC /* HomeViewController.swift */,
+				94DED3E326D363A10095DDCC /* TransitViewController.swift */,
+				94DED3E526D363AF0095DDCC /* WalletViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +195,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942D6C0D26D4BF0E00469B1F /* super.JPG in Resources */,
+				942D6C0E26D4BF0E00469B1F /* baby.JPG in Resources */,
 				94DED3D626D35FC80095DDCC /* LaunchScreen.storyboard in Resources */,
+				942D6C0F26D4BF0E00469B1F /* toys.JPG in Resources */,
+				944FC1C826D3961C0048CDDB /* icons8-food_cart.png in Resources */,
+				942D6C0B26D4BF0E00469B1F /* Veg 5.47.11 PM.JPG in Resources */,
+				942D6C0926D4BF0E00469B1F /* groc 5.47.11 PM.PNG in Resources */,
+				942D6C0826D4BF0E00469B1F /* med 5.47.11 PM.JPG in Resources */,
+				944FC1CA26D39C270048CDDB /* icons8-google_maps.png in Resources */,
 				94DED3D326D35FC80095DDCC /* Assets.xcassets in Resources */,
+				942D6C0726D4BF0E00469B1F /* com.JPG in Resources */,
 				94DED3D126D35FC30095DDCC /* Main.storyboard in Resources */,
+				942D6C0C26D4BF0E00469B1F /* sea 5.47.11 PM.JPG in Resources */,
+				944FC1CC26D39E290048CDDB /* icons8-coin_wallet.png in Resources */,
+				942D6C0A26D4BF0E00469B1F /* ga 5.47.11 PM.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +220,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DED3CE26D35FC30095DDCC /* ViewController.swift in Sources */,
+				94DED3E026D3636E0095DDCC /* SearchViewController.swift in Sources */,
+				94DED3DE26D363500095DDCC /* CartViewController.swift in Sources */,
+				94DED3E426D363A10095DDCC /* TransitViewController.swift in Sources */,
 				94DED3CA26D35FC30095DDCC /* AppDelegate.swift in Sources */,
+				94DED3E626D363AF0095DDCC /* WalletViewController.swift in Sources */,
+				942D6BF926D4AFE500469B1F /* ImageCollectionViewCell.swift in Sources */,
 				94DED3CC26D35FC30095DDCC /* SceneDelegate.swift in Sources */,
+				94DED3E226D363830095DDCC /* HomeViewController.swift in Sources */,
+				942D6BFB26D4B2BC00469B1F /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.manu.Think360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +400,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.manu.Think360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
