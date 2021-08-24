@@ -16,7 +16,7 @@ class SearchViewController: UIViewController, UITableViewDelegate, UISearchBarDe
     @IBOutlet weak var tableView: UITableView!
     
     
-    let sections = ["Groceries", "Baby Care", "Computers", "games", "Medical", "Toys","sea Food", "SuperMarket", "Vegetables"]
+    let data = ["Groceries", "Baby Care", "Computers", "games", "Medical", "Toys","sea Food", "SuperMarket", "Vegetables"]
     
     var filterData: [String]!
     
@@ -31,7 +31,7 @@ class SearchViewController: UIViewController, UITableViewDelegate, UISearchBarDe
         
         searchBar.delegate = self
         
-        filterData = sections
+        filterData = data
 
     }
     
@@ -39,10 +39,10 @@ class SearchViewController: UIViewController, UITableViewDelegate, UISearchBarDe
         filterData = []
         
         if searchText == "" {
-            filterData = sections
+            filterData = data
         }
         else{
-        for shopping in sections {
+        for shopping in data {
             if shopping.lowercased().contains(searchText.lowercased()){
                 filterData.append(shopping)
             }
@@ -55,7 +55,7 @@ class SearchViewController: UIViewController, UITableViewDelegate, UISearchBarDe
 extension SearchViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        sections.count
+        return 1
          
     }
     
@@ -66,11 +66,11 @@ extension SearchViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         
-//        let title = rows[indexPath.section][indexPath.row]
         cell.textLabel?.text = filterData[indexPath.row]
         return cell
         
     }
+    
 }
 
 

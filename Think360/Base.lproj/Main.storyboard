@@ -92,7 +92,7 @@
         <!--Home-->
         <scene sceneID="Qqq-XD-PgU">
             <objects>
-                <viewController id="y6D-UI-iwQ" customClass="HomeViewController" customModule="Think360" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="y6D-UI-iwQ" customClass="HomeViewController" customModule="Think360" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8ey-yf-KGq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -307,7 +307,7 @@
         <!--Home-->
         <scene sceneID="nbY-hF-C1u">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yvB-lH-ANs" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Home" automaticallyAdjustsScrollViewInsets="NO" id="yvB-lH-ANs" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="IxK-8E-zxl"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gde-AT-TZk">
